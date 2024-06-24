@@ -114,5 +114,4 @@ async def test_car(request: ModelRequest):
 
 @app.get("/")
 async def f():
-    k = model.predict([[232000, 2.0, 125, 1, 2011, 1, 1, 1, 82]])[0]
-    return k
+    {"ping": "Pong"}
