@@ -113,5 +113,5 @@ async def test_car(request: ModelRequest):
 
 
 @app.get("/")
-async def f():
-    {"ping": "Pong"}
+async def index():
+    return {"ping": "Pong"}
